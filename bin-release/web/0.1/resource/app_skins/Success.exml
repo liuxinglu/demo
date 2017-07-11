@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Success" width="1366" height="768" xmlns:e="http://ns.egret.com/eui" xmlns:ui="lxl.ui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="324" height="200" anchorOffsetX="0" horizontalCenter="0" verticalCenter="-234">
+		<ui:CButton id="btn_back" label="返回" x="30" y="95" skinName="ButtonResetSkin"/>
+		<ui:CButton id="btn_again" label="再来一次" x="199" y="95" skinName="ButtonResetSkin"/>
+	</e:Group>
+</e:Skin>

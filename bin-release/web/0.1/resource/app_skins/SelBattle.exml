@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SelBattle" width="1366" height="768" xmlns:e="http://ns.egret.com/eui" xmlns:ui="lxl.ui.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" left="0" top="0" bottom="0" right="0" source="bg_tiaoJiuShiXuanGuan_jpg"/>
+	<e:Image source="img_xuanGuanKuang_png" horizontalCenter="0" verticalCenter="17.5"/>
+	<e:Group width="359" height="356" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="30">
+		<ui:CButton id="btn_1" label="" name="btn_1" left="0" top="0" skinName="Btn1" anchorOffsetX="43" anchorOffsetY="41">
+		</ui:CButton>
+		<ui:CButton id="btn_2" label="" name="btn_2" top="0" horizontalCenter="0" skinName="Btn2" anchorOffsetX="43" anchorOffsetY="41">
+		</ui:CButton>
+		<ui:CButton id="btn_3" label="" name="btn_3" right="0" top="0" skinName="Btn3" anchorOffsetX="43" anchorOffsetY="41">
+		</ui:CButton>
+		<ui:CButton id="btn_4" label="" name="btn_4" left="0" verticalCenter="0" skinName="Btn4" anchorOffsetX="43" anchorOffsetY="41">
+		</ui:CButton>
+		<ui:CButton id="btn_5" label="" name="btn_5" horizontalCenter="0" verticalCenter="0" skinName="Btn5" anchorOffsetX="43" anchorOffsetY="41">
+		</ui:CButton>
+		<ui:CButton id="btn_6" label="" name="btn_6" verticalCenter="0" right="0" skinName="Btn6" anchorOffsetX="43" anchorOffsetY="41">
+		</ui:CButton>
+		<ui:CButton id="btn_7" label="" name="btn_7" left="0" bottom="0" skinName="Btn7" anchorOffsetX="43" anchorOffsetY="41">
+		</ui:CButton>
+		<ui:CButton id="btn_8" label="" name="btn_8" horizontalCenter="0" bottom="0" skinName="Btn8" anchorOffsetX="43" anchorOffsetY="41">
+		</ui:CButton>
+		<ui:CButton id="btn_9" label="" name="btn_9" right="0" bottom="0" skinName="Btn9" anchorOffsetX="43" anchorOffsetY="41">
+		</ui:CButton>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Image source="img_guanQiaBiaoTi_png" y="70" horizontalCenter="0"/>
+	<ui:CButton id="btn_home" label="" skinName="ButtonHomeSkin" left="20" bottom="37"/>
+	<ui:CButton id="btn_zhishi" label="" skinName="ButtonZhishiSkin" right="104" top="19"/>
+	<ui:CButton id="btn_help" label="" skinName="ButtonHelpSkin" right="32" top="19"/>
+	<ui:CButton id="btn_huyan" label="" skinName="ButtonHuyanSkin" top="2" horizontalCenter="0"/>
+</e:Skin>

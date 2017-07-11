@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Cup1" xmlns:e="http://ns.egret.com/eui" width="188" height="377">
+	<e:ProgressBar id="progressBar" anchorOffsetY="0" direction="btt" anchorOffsetX="0" top="4" skinName="ProgressBar1" bottom="103" horizontalCenter="-6"/>
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" left="0" right="9" top="0" bottom="0" source="img_30mlBeiZi_png"/>
+	<e:Image id="img_sel" anchorOffsetX="0" anchorOffsetY="0" left="0" right="9" top="0" bottom="0" source="newbg0_png" visible="false"/>
+	<e:Label id="label_container" text="" size="20" textColor="0x0a0909" horizontalCenter="0" verticalCenter="-206"/>
+</e:Skin>

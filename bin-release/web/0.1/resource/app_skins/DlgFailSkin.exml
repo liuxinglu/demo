@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DlgFailSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ui="lxl.ui.*" xmlns:w="http://ns.egret.com/wing" width="1366" height="768">
+	<e:Image source="img_shiBaiBeiJing_png" left="0" right="0" top="0" bottom="0"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image left="0" right="0" top="0" bottom="0" source="img_guoGuanTanKuang_png"/>
+		<e:Group id="groupJianyi" width="334" height="121" x="12.1" y="164.16" anchorOffsetY="0" visible="false">
+			<e:Image source="img_jianyi_png" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" top="0" bottom="0"/>
+			<e:Label text="理论上这一局你是必赢的哦，建议你继续学习四年级第十九讲关于必胜策略的课程。" anchorOffsetY="0" height="143.64" anchorOffsetX="0" size="22" fontFamily="Microsoft YaHei" lineSpacing="5" left="20" top="14" right="20"/>
+		</e:Group>
+		<ui:CButton id="btn_jixu" label="" horizontalCenter="0.5" bottom="34" anchorOffsetY="0" height="67" skinName="ButtonResetSkin"/>
+		<e:Image source="img_lose_png" x="-15" y="6.64"/>
+		<e:Image source="img_jiaYou_png" y="143.64" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

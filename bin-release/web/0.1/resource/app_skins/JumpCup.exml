@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="JumpCup" width="1366" height="768" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:app="app.*" xmlns:ui="lxl.ui.*">
+	<e:Image left="0" right="0" top="0" bottom="0" x="10" y="10" scaleX="1" scaleY="1" source="bg_tiaoJiuShiYouXi_jpg"/>
+	<e:Image rotation="359.98" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="60.5" top="83" source="img_fuDongTiao_png"/>
+	<e:Label id="txt_target" text="小朋友，你需要倒出{}的液体" anchorOffsetX="0" width="384.99" textAlign="center" size="26" horizontalCenter="57.5" strokeColor="0x3a3939" stroke="2" border="false" fontFamily="Microsoft YaHei" top="119" rotation="359.82"/>
+	<app:Cup id="cup0" skinName="Cup1" horizontalCenter="-56" bottom="46" anchorOffsetY="0" height="377"/>
+	<app:Cup id="cup1" skinName="Cup2" horizontalCenter="234" bottom="46"/>
+	<e:Image id="img_e0" source="arrow_empty_png" horizontalCenter="-58.5" bottom="257" visible="false"/>
+	<e:Image id="img_f0" source="arrow_full_png" horizontalCenter="-59.5" bottom="387" visible="false"/>
+	<e:Image id="img_e1" source="arrow_empty_png" horizontalCenter="231.5" bottom="258" visible="false"/>
+	<e:Image id="img_f1" source="arrow_full_png" horizontalCenter="231.5" bottom="332" visible="false"/>
+	<e:Image id="img_right" source="arrow_right_png" horizontalCenter="30.5" bottom="387" visible="false"/>
+	<e:Image id="img_left" source="arrow_left_png" horizontalCenter="133" bottom="351" visible="false"/>
+	<e:Label id="lab0" text="" x="470" top="603" visible="false"/>
+	<e:Label id="lab1" text="" x="785" top="603" visible="false"/>
+	<ui:CButton id="btn_home" label="" skinName="ButtonHomeSkin" left="20" bottom="37"/>
+</e:Skin>
